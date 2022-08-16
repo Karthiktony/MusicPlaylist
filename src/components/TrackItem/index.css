@@ -1,0 +1,58 @@
+.track-item {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+}
+
+.track-img {
+  height: 100px;
+  padding-right: 10px;
+}
+
+.delete-container {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.genre {
+  font-family: 'Roboto';
+  color: #3b82f6;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.duration {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.delete {
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.button {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
